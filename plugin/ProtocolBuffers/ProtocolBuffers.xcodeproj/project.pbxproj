@@ -173,6 +173,30 @@
 		3FF2DCBE1A1A681A00226761 /* golden_packed_fields_message in Resources */ = {isa = PBXBuildFile; fileRef = 3F93013C1A0964ED00F7A20B /* golden_packed_fields_message */; };
 		3FF2DCBF1A1A681A00226761 /* text_format_unittest_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F93013D1A0964ED00F7A20B /* text_format_unittest_data.txt */; };
 		3FF2DCC01A1A681A00226761 /* text_format_unittest_extensions_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F93013E1A0964ED00F7A20B /* text_format_unittest_extensions_data.txt */; };
+		F2200DCF1EAF0677006545EB /* AbstractMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7EA1C396BA9009876B8 /* AbstractMessage.swift */; };
+		F2200DD01EAF0677006545EB /* CodedInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7EB1C396BA9009876B8 /* CodedInputStream.swift */; };
+		F2200DD11EAF0677006545EB /* CodedOutputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7EC1C396BA9009876B8 /* CodedOutputStream.swift */; };
+		F2200DD21EAF0677006545EB /* ConcreateExtensionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7ED1C396BA9009876B8 /* ConcreateExtensionField.swift */; };
+		F2200DD31EAF0677006545EB /* ExtendableMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7EE1C396BA9009876B8 /* ExtendableMessage.swift */; };
+		F2200DD41EAF0677006545EB /* ExtensionRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7EF1C396BA9009876B8 /* ExtensionRegistry.swift */; };
+		F2200DD51EAF0677006545EB /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7F01C396BA9009876B8 /* Field.swift */; };
+		F2200DD61EAF0677006545EB /* GeneratedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7F11C396BA9009876B8 /* GeneratedMessage.swift */; };
+		F2200DD71EAF0677006545EB /* Google.Protobuf.Api.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7F31C396BA9009876B8 /* Google.Protobuf.Api.proto.swift */; };
+		F2200DD81EAF0677006545EB /* Google.Protobuf.Descriptor.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7F41C396BA9009876B8 /* Google.Protobuf.Descriptor.proto.swift */; };
+		F2200DD91EAF0677006545EB /* Google.Protobuf.Any.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F586C371D50EE720015E6F5 /* Google.Protobuf.Any.proto.swift */; };
+		F2200DDA1EAF0677006545EB /* Google.Protobuf.Type.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F586C381D50EE720015E6F5 /* Google.Protobuf.Type.proto.swift */; };
+		F2200DDB1EAF0677006545EB /* Google.Protobuf.Duration.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7F51C396BA9009876B8 /* Google.Protobuf.Duration.proto.swift */; };
+		F2200DDC1EAF0677006545EB /* Google.Protobuf.Empty.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7F61C396BA9009876B8 /* Google.Protobuf.Empty.proto.swift */; };
+		F2200DDD1EAF0677006545EB /* Google.Protobuf.FieldMask.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7F71C396BA9009876B8 /* Google.Protobuf.FieldMask.proto.swift */; };
+		F2200DDE1EAF0677006545EB /* Google.Protobuf.SourceContext.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7F81C396BA9009876B8 /* Google.Protobuf.SourceContext.proto.swift */; };
+		F2200DDF1EAF0677006545EB /* Google.Protobuf.Struct.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7F91C396BA9009876B8 /* Google.Protobuf.Struct.proto.swift */; };
+		F2200DE01EAF0677006545EB /* Google.Protobuf.SwiftDescriptor.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7FA1C396BA9009876B8 /* Google.Protobuf.SwiftDescriptor.proto.swift */; };
+		F2200DE11EAF0677006545EB /* Google.Protobuf.Timestamp.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7FB1C396BA9009876B8 /* Google.Protobuf.Timestamp.proto.swift */; };
+		F2200DE21EAF0677006545EB /* Google.Protobuf.Wrappers.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7FD1C396BA9009876B8 /* Google.Protobuf.Wrappers.proto.swift */; };
+		F2200DE41EAF0677006545EB /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A7FF1C396BA9009876B8 /* RingBuffer.swift */; };
+		F2200DE51EAF0677006545EB /* UnknownFieldSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A8001C396BA9009876B8 /* UnknownFieldSet.swift */; };
+		F2200DE61EAF0677006545EB /* WireFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A8011C396BA9009876B8 /* WireFormat.swift */; };
+		F2200DE71EAF0691006545EB /* ProtocolBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F89A7FE1C396BA9009876B8 /* ProtocolBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77F9EAD1D89436200BCBB5B /* ErrorHandlingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFED1F1D7B00E4006CF502 /* ErrorHandlingTest.swift */; };
 		F77F9EAE1D89436300BCBB5B /* ErrorHandlingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFED1F1D7B00E4006CF502 /* ErrorHandlingTest.swift */; };
 /* End PBXBuildFile section */
@@ -298,6 +322,7 @@
 		3FE641F61B53AE4000BDAE9A /* UnittestEmpty.proto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnittestEmpty.proto.swift; sourceTree = "<group>"; };
 		3FE641F71B53AE4000BDAE9A /* UnittestThreading.proto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnittestThreading.proto.swift; sourceTree = "<group>"; };
 		3FEFE99E1A12612E005DEAF3 /* MessageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MessageTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2200DC71EAF0610006545EB /* ProtocolBuffers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProtocolBuffers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +360,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F62EF9A19C720F80007F248 /* ProtocolBuffers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2200DC31EAF0610006545EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +449,7 @@
 				3F41061C1A1A667700742090 /* ProtocolBuffers.framework */,
 				3F4106261A1A667800742090 /* UnitTesting(OSX).xctest */,
 				3F31A1A91BA199C000F477C1 /* ProtocolBuffers.framework */,
+				F2200DC71EAF0610006545EB /* ProtocolBuffers.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -552,6 +585,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2200DC41EAF0610006545EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2200DE71EAF0691006545EB /* ProtocolBuffers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -647,6 +688,24 @@
 			productReference = 3F8556A419C71BCF003802F2 /* ProtocolBuffersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F2200DC61EAF0610006545EB /* ProtocolBuffers-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2200DCC1EAF0610006545EB /* Build configuration list for PBXNativeTarget "ProtocolBuffers-tvOS" */;
+			buildPhases = (
+				F2200DC21EAF0610006545EB /* Sources */,
+				F2200DC31EAF0610006545EB /* Frameworks */,
+				F2200DC41EAF0610006545EB /* Headers */,
+				F2200DC51EAF0610006545EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProtocolBuffers-tvOS";
+			productName = "ProtocolBuffers-tvOS";
+			productReference = F2200DC71EAF0610006545EB /* ProtocolBuffers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -673,6 +732,10 @@
 					3F8556A319C71BCF003802F2 = {
 						CreatedOnToolsVersion = 6.0;
 					};
+					F2200DC61EAF0610006545EB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 3F85569319C71BCF003802F2 /* Build configuration list for PBXProject "ProtocolBuffers" */;
@@ -692,6 +755,7 @@
 				3F41061B1A1A667700742090 /* ProtocolBuffers(OSX) */,
 				3F4106251A1A667800742090 /* UnitTesting(OSX) */,
 				3F31A1A81BA199C000F477C1 /* ProtocolBuffers(watchOS) */,
+				F2200DC61EAF0610006545EB /* ProtocolBuffers-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -739,6 +803,13 @@
 				3F26F7471B909AD300428569 /* delimitedFile.dat in Resources */,
 				3F9301421A0964ED00F7A20B /* text_format_unittest_extensions_data.txt in Resources */,
 				3F93013F1A0964ED00F7A20B /* golden_message in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2200DC51EAF0610006545EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -928,6 +999,36 @@
 				3F8556D219C71C05003802F2 /* CodedOuputStreamTests.swift in Sources */,
 				3FE642061B53AE4000BDAE9A /* Proto3ArenaUnittest.UnittestProto3Arena.proto.swift in Sources */,
 				3FE642101B53AE4000BDAE9A /* ProtobufUnittest.UnittestLite.proto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2200DC21EAF0610006545EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2200DD11EAF0677006545EB /* CodedOutputStream.swift in Sources */,
+				F2200DE61EAF0677006545EB /* WireFormat.swift in Sources */,
+				F2200DD31EAF0677006545EB /* ExtendableMessage.swift in Sources */,
+				F2200DD21EAF0677006545EB /* ConcreateExtensionField.swift in Sources */,
+				F2200DDF1EAF0677006545EB /* Google.Protobuf.Struct.proto.swift in Sources */,
+				F2200DD01EAF0677006545EB /* CodedInputStream.swift in Sources */,
+				F2200DE41EAF0677006545EB /* RingBuffer.swift in Sources */,
+				F2200DD81EAF0677006545EB /* Google.Protobuf.Descriptor.proto.swift in Sources */,
+				F2200DDB1EAF0677006545EB /* Google.Protobuf.Duration.proto.swift in Sources */,
+				F2200DDE1EAF0677006545EB /* Google.Protobuf.SourceContext.proto.swift in Sources */,
+				F2200DE11EAF0677006545EB /* Google.Protobuf.Timestamp.proto.swift in Sources */,
+				F2200DE51EAF0677006545EB /* UnknownFieldSet.swift in Sources */,
+				F2200DE01EAF0677006545EB /* Google.Protobuf.SwiftDescriptor.proto.swift in Sources */,
+				F2200DD41EAF0677006545EB /* ExtensionRegistry.swift in Sources */,
+				F2200DDA1EAF0677006545EB /* Google.Protobuf.Type.proto.swift in Sources */,
+				F2200DD61EAF0677006545EB /* GeneratedMessage.swift in Sources */,
+				F2200DD91EAF0677006545EB /* Google.Protobuf.Any.proto.swift in Sources */,
+				F2200DDD1EAF0677006545EB /* Google.Protobuf.FieldMask.proto.swift in Sources */,
+				F2200DE21EAF0677006545EB /* Google.Protobuf.Wrappers.proto.swift in Sources */,
+				F2200DD51EAF0677006545EB /* Field.swift in Sources */,
+				F2200DD71EAF0677006545EB /* Google.Protobuf.Api.proto.swift in Sources */,
+				F2200DCF1EAF0677006545EB /* AbstractMessage.swift in Sources */,
+				F2200DDC1EAF0677006545EB /* Google.Protobuf.Empty.proto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1280,6 +1381,65 @@
 			};
 			name = Release;
 		};
+		F2200DCD1EAF0610006545EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ProtocolBuffers/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyxo.ProtocolBuffers;
+				PRODUCT_MODULE_NAME = ProtocolBuffers;
+				PRODUCT_NAME = ProtocolBuffers;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		F2200DCE1EAF0610006545EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ProtocolBuffers/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyxo.ProtocolBuffers;
+				PRODUCT_MODULE_NAME = ProtocolBuffers;
+				PRODUCT_NAME = ProtocolBuffers;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1336,6 +1496,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F2200DCC1EAF0610006545EB /* Build configuration list for PBXNativeTarget "ProtocolBuffers-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2200DCD1EAF0610006545EB /* Debug */,
+				F2200DCE1EAF0610006545EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
