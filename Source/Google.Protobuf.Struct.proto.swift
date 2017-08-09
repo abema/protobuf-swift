@@ -95,7 +95,7 @@ public extension Google.Protobuf {
                 return fieldCheck
             }
 
-            public fileprivate(set) var key:String! = nil
+            public fileprivate(set) var key:String = ""
             public fileprivate(set) var hasKey:Bool = false
 
             public fileprivate(set) var value:Google.Protobuf.Value!
@@ -245,7 +245,7 @@ public extension Google.Protobuf {
                 @discardableResult
                 public func clearKey() -> Google.Protobuf.Struct.FieldsEntry.Builder{
                     builderResult.hasKey = false
-                    builderResult.key = nil
+                    builderResult.key = ""
                     return self
                 }
                 public var value:Google.Protobuf.Value! {
@@ -1067,7 +1067,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearNumberValue() -> Google.Protobuf.Value.Builder{
                 builderResult.hasNumberValue = false
-                builderResult.numberValue = nil
+                builderResult.numberValue = Double(0)
                 return self
             }
             /// Represents a string value.
@@ -1093,7 +1093,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearStringValue() -> Google.Protobuf.Value.Builder{
                 builderResult.hasStringValue = false
-                builderResult.stringValue = nil
+                builderResult.stringValue = ""
                 return self
             }
             /// Represents a boolean value.
@@ -1119,7 +1119,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearBoolValue() -> Google.Protobuf.Value.Builder{
                 builderResult.hasBoolValue = false
-                builderResult.boolValue = nil
+                builderResult.boolValue = false
                 return self
             }
             /// Represents a structured value.

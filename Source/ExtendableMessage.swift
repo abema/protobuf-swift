@@ -84,7 +84,7 @@ open class ExtendableMessage : GeneratedMessage
         extensionRegistry[extensions.fieldNumber] = extensions
     }
     
-    public func getExtension(extensions:ConcreateExtensionField) -> Any? {
+    public func getExtension(extensions:ConcreateExtensionField) -> Any {
         ensureExtensionIsRegistered(extensions: extensions)
         if let value = extensionMap[extensions.fieldNumber] {
             return value
@@ -337,7 +337,7 @@ open class ExtendableMessageBuilder:GeneratedMessageBuilder
         }
         return try super.parse(codedInputStream: codedInputStream, unknownFields: unknownFields, extensionRegistry: extensionRegistry, tag: tag)
     }
-    public func getExtension(extensions:ConcreateExtensionField) -> Any? {
+    public func getExtension(extensions:ConcreateExtensionField) -> Any {
         return internalGetResult.getExtension(extensions: extensions)
     }
     public func hasExtension(extensions:ConcreateExtensionField) -> Bool {

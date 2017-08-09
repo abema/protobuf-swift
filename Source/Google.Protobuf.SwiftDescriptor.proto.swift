@@ -159,21 +159,21 @@ public extension Google.Protobuf {
             return fieldCheck
         }
 
-        public fileprivate(set) var classPrefix:String! = nil
+        public fileprivate(set) var classPrefix:String = ""
         public fileprivate(set) var hasClassPrefix:Bool = false
 
         public fileprivate(set) var entitiesAccessControl:Google.Protobuf.AccessControl = Google.Protobuf.AccessControl.publicEntities
         public fileprivate(set) var hasEntitiesAccessControl:Bool = false
-        public fileprivate(set) var compileForFramework:Bool! = true
+        public fileprivate(set) var compileForFramework:Bool = true
         public fileprivate(set) var hasCompileForFramework:Bool = false
 
-        public fileprivate(set) var generateStruct:Bool! = false
+        public fileprivate(set) var generateStruct:Bool = false
         public fileprivate(set) var hasGenerateStruct:Bool = false
 
-        public fileprivate(set) var generateRealmObjects:Bool! = false
+        public fileprivate(set) var generateRealmObjects:Bool = false
         public fileprivate(set) var hasGenerateRealmObjects:Bool = false
 
-        public fileprivate(set) var generateReact:Bool! = false
+        public fileprivate(set) var generateReact:Bool = false
         public fileprivate(set) var hasGenerateReact:Bool = false
 
         required public init() {
@@ -373,7 +373,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearClassPrefix() -> Google.Protobuf.SwiftFileOptions.Builder{
                 builderResult.hasClassPrefix = false
-                builderResult.classPrefix = nil
+                builderResult.classPrefix = ""
                 return self
             }
                 public var entitiesAccessControl:Google.Protobuf.AccessControl {
@@ -641,13 +641,13 @@ public extension Google.Protobuf {
             return fieldCheck
         }
 
-        public fileprivate(set) var generateErrorType:Bool! = false
+        public fileprivate(set) var generateErrorType:Bool = false
         public fileprivate(set) var hasGenerateErrorType:Bool = false
 
-        public fileprivate(set) var generateRealmObject:Bool! = false
+        public fileprivate(set) var generateRealmObject:Bool = false
         public fileprivate(set) var hasGenerateRealmObject:Bool = false
 
-        public fileprivate(set) var generateReact:Bool! = false
+        public fileprivate(set) var generateReact:Bool = false
         public fileprivate(set) var hasGenerateReact:Bool = false
 
         required public init() {
@@ -963,10 +963,10 @@ public extension Google.Protobuf {
             return fieldCheck
         }
 
-        public fileprivate(set) var realmIndexedPropertie:Bool! = false
+        public fileprivate(set) var realmIndexedPropertie:Bool = false
         public fileprivate(set) var hasRealmIndexedPropertie:Bool = false
 
-        public fileprivate(set) var realmPrimaryKey:Bool! = false
+        public fileprivate(set) var realmPrimaryKey:Bool = false
         public fileprivate(set) var hasRealmPrimaryKey:Bool = false
 
         public fileprivate(set) var realmOverridePropertie:Google.Protobuf.RealmOverrideRepeated = Google.Protobuf.RealmOverrideRepeated.`override`
@@ -1288,10 +1288,10 @@ public extension Google.Protobuf {
             return fieldCheck
         }
 
-        public fileprivate(set) var generateErrorType:Bool! = false
+        public fileprivate(set) var generateErrorType:Bool = false
         public fileprivate(set) var hasGenerateErrorType:Bool = false
 
-        public fileprivate(set) var generateReact:Bool! = false
+        public fileprivate(set) var generateReact:Bool = false
         public fileprivate(set) var hasGenerateReact:Bool = false
 
         required public init() {

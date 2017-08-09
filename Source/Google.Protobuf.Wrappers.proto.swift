@@ -36,7 +36,7 @@ public extension Google.Protobuf {
         }
 
         /// The double value.
-        public fileprivate(set) var value:Double! = nil
+        public fileprivate(set) var value:Double = Double(0)
         public fileprivate(set) var hasValue:Bool = false
 
         required public init() {
@@ -162,7 +162,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearValue() -> Google.Protobuf.DoubleValue.Builder{
                 builderResult.hasValue = false
-                builderResult.value = nil
+                builderResult.value = Double(0)
                 return self
             }
             override public var internalGetResult:GeneratedMessage {
@@ -257,7 +257,7 @@ public extension Google.Protobuf {
         }
 
         /// The float value.
-        public fileprivate(set) var value:Float! = nil
+        public fileprivate(set) var value:Float = Float(0)
         public fileprivate(set) var hasValue:Bool = false
 
         required public init() {
@@ -383,7 +383,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearValue() -> Google.Protobuf.FloatValue.Builder{
                 builderResult.hasValue = false
-                builderResult.value = nil
+                builderResult.value = Float(0)
                 return self
             }
             override public var internalGetResult:GeneratedMessage {
@@ -478,7 +478,7 @@ public extension Google.Protobuf {
         }
 
         /// The int64 value.
-        public fileprivate(set) var value:Int64! = nil
+        public fileprivate(set) var value:Int64 = Int64(0)
         public fileprivate(set) var hasValue:Bool = false
 
         required public init() {
@@ -604,7 +604,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearValue() -> Google.Protobuf.Int64Value.Builder{
                 builderResult.hasValue = false
-                builderResult.value = nil
+                builderResult.value = Int64(0)
                 return self
             }
             override public var internalGetResult:GeneratedMessage {
@@ -699,7 +699,7 @@ public extension Google.Protobuf {
         }
 
         /// The uint64 value.
-        public fileprivate(set) var value:UInt64! = nil
+        public fileprivate(set) var value:UInt64 = UInt64(0)
         public fileprivate(set) var hasValue:Bool = false
 
         required public init() {
@@ -825,7 +825,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearValue() -> Google.Protobuf.Uint64Value.Builder{
                 builderResult.hasValue = false
-                builderResult.value = nil
+                builderResult.value = UInt64(0)
                 return self
             }
             override public var internalGetResult:GeneratedMessage {
@@ -920,7 +920,7 @@ public extension Google.Protobuf {
         }
 
         /// The int32 value.
-        public fileprivate(set) var value:Int32! = nil
+        public fileprivate(set) var value:Int32 = Int32(0)
         public fileprivate(set) var hasValue:Bool = false
 
         required public init() {
@@ -1046,7 +1046,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearValue() -> Google.Protobuf.Int32Value.Builder{
                 builderResult.hasValue = false
-                builderResult.value = nil
+                builderResult.value = Int32(0)
                 return self
             }
             override public var internalGetResult:GeneratedMessage {
@@ -1141,7 +1141,7 @@ public extension Google.Protobuf {
         }
 
         /// The uint32 value.
-        public fileprivate(set) var value:UInt32! = nil
+        public fileprivate(set) var value:UInt32 = UInt32(0)
         public fileprivate(set) var hasValue:Bool = false
 
         required public init() {
@@ -1267,7 +1267,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearValue() -> Google.Protobuf.Uint32Value.Builder{
                 builderResult.hasValue = false
-                builderResult.value = nil
+                builderResult.value = UInt32(0)
                 return self
             }
             override public var internalGetResult:GeneratedMessage {
@@ -1362,7 +1362,7 @@ public extension Google.Protobuf {
         }
 
         /// The bool value.
-        public fileprivate(set) var value:Bool! = nil
+        public fileprivate(set) var value:Bool = false
         public fileprivate(set) var hasValue:Bool = false
 
         required public init() {
@@ -1488,7 +1488,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearValue() -> Google.Protobuf.BoolValue.Builder{
                 builderResult.hasValue = false
-                builderResult.value = nil
+                builderResult.value = false
                 return self
             }
             override public var internalGetResult:GeneratedMessage {
@@ -1581,7 +1581,7 @@ public extension Google.Protobuf {
         }
 
         /// The string value.
-        public fileprivate(set) var value:String! = nil
+        public fileprivate(set) var value:String = ""
         public fileprivate(set) var hasValue:Bool = false
 
         required public init() {
@@ -1707,7 +1707,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearValue() -> Google.Protobuf.StringValue.Builder{
                 builderResult.hasValue = false
-                builderResult.value = nil
+                builderResult.value = ""
                 return self
             }
             override public var internalGetResult:GeneratedMessage {
@@ -1800,7 +1800,7 @@ public extension Google.Protobuf {
         }
 
         /// The bytes value.
-        public fileprivate(set) var value:Data! = nil
+        public fileprivate(set) var value:Data = Data()
         public fileprivate(set) var hasValue:Bool = false
 
         required public init() {
@@ -1926,7 +1926,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearValue() -> Google.Protobuf.BytesValue.Builder{
                 builderResult.hasValue = false
-                builderResult.value = nil
+                builderResult.value = Data()
                 return self
             }
             override public var internalGetResult:GeneratedMessage {

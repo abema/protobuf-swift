@@ -178,7 +178,7 @@ namespace google { namespace protobuf { namespace compiler { namespace swift {
         }
         else
         {
-            printer->Print(variables_,"$acontrol$fileprivate(set) var $name_reserved$:$storage_type$! = $default$\n");
+            printer->Print(variables_,"$acontrol$fileprivate(set) var $name_reserved$:$storage_type$ = $default$\n");
             printer->Print(variables_,"$acontrol$fileprivate(set) var has$capitalized_name$:Bool = false\n\n");
         }
     }

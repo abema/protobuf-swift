@@ -899,10 +899,6 @@ namespace google { namespace protobuf { namespace compiler { namespace swift {
     }
 
     string DefaultValue(const FieldDescriptor* field) {
-
-        if (!field->has_default_value() && field->cpp_type() != FieldDescriptor::CPPTYPE_MESSAGE) {
-            return "nil";
-        }
         
         switch (field->cpp_type()) {
             case FieldDescriptor::CPPTYPE_INT32:  return "Int32(" + SimpleItoa(field->default_value_int32()) +")";

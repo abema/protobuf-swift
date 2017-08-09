@@ -43,7 +43,7 @@ public extension Google.Protobuf {
 
         /// The fully qualified name of this api, including package name
         /// followed by the api's simple name.
-        public fileprivate(set) var name:String! = nil
+        public fileprivate(set) var name:String = ""
         public fileprivate(set) var hasName:Bool = false
 
         public fileprivate(set) var methods:Array<Google.Protobuf.Method>  = Array<Google.Protobuf.Method>()
@@ -67,7 +67,7 @@ public extension Google.Protobuf {
         /// be omitted. Zero major versions must only be used for
         /// experimental, none-GA apis.
         /// See also: [design doc](http://go/api-versioning).
-        public fileprivate(set) var version:String! = nil
+        public fileprivate(set) var version:String = ""
         public fileprivate(set) var hasVersion:Bool = false
 
         public fileprivate(set) var sourceContext:Google.Protobuf.SourceContext!
@@ -282,7 +282,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearName() -> Google.Protobuf.Api.Builder{
                 builderResult.hasName = false
-                builderResult.name = nil
+                builderResult.name = ""
                 return self
             }
             /// The methods of this api, in unspecified order.
@@ -364,7 +364,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearVersion() -> Google.Protobuf.Api.Builder{
                 builderResult.hasVersion = false
-                builderResult.version = nil
+                builderResult.version = ""
                 return self
             }
             /// Source context for the protocol buffer service represented by this
@@ -576,23 +576,23 @@ public extension Google.Protobuf {
         }
 
         /// The simple name of this method.
-        public fileprivate(set) var name:String! = nil
+        public fileprivate(set) var name:String = ""
         public fileprivate(set) var hasName:Bool = false
 
         /// A URL of the input message type.
-        public fileprivate(set) var requestTypeUrl:String! = nil
+        public fileprivate(set) var requestTypeUrl:String = ""
         public fileprivate(set) var hasRequestTypeUrl:Bool = false
 
         /// If true, the request is streamed.
-        public fileprivate(set) var requestStreaming:Bool! = nil
+        public fileprivate(set) var requestStreaming:Bool = false
         public fileprivate(set) var hasRequestStreaming:Bool = false
 
         /// The URL of the output message type.
-        public fileprivate(set) var responseTypeUrl:String! = nil
+        public fileprivate(set) var responseTypeUrl:String = ""
         public fileprivate(set) var hasResponseTypeUrl:Bool = false
 
         /// If true, the response is streamed.
-        public fileprivate(set) var responseStreaming:Bool! = nil
+        public fileprivate(set) var responseStreaming:Bool = false
         public fileprivate(set) var hasResponseStreaming:Bool = false
 
         public fileprivate(set) var options:Array<Google.Protobuf.Option>  = Array<Google.Protobuf.Option>()
@@ -803,7 +803,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearName() -> Google.Protobuf.Method.Builder{
                 builderResult.hasName = false
-                builderResult.name = nil
+                builderResult.name = ""
                 return self
             }
             /// A URL of the input message type.
@@ -829,7 +829,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearRequestTypeUrl() -> Google.Protobuf.Method.Builder{
                 builderResult.hasRequestTypeUrl = false
-                builderResult.requestTypeUrl = nil
+                builderResult.requestTypeUrl = ""
                 return self
             }
             /// If true, the request is streamed.
@@ -855,7 +855,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearRequestStreaming() -> Google.Protobuf.Method.Builder{
                 builderResult.hasRequestStreaming = false
-                builderResult.requestStreaming = nil
+                builderResult.requestStreaming = false
                 return self
             }
             /// The URL of the output message type.
@@ -881,7 +881,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearResponseTypeUrl() -> Google.Protobuf.Method.Builder{
                 builderResult.hasResponseTypeUrl = false
-                builderResult.responseTypeUrl = nil
+                builderResult.responseTypeUrl = ""
                 return self
             }
             /// If true, the response is streamed.
@@ -907,7 +907,7 @@ public extension Google.Protobuf {
             @discardableResult
             public func clearResponseStreaming() -> Google.Protobuf.Method.Builder{
                 builderResult.hasResponseStreaming = false
-                builderResult.responseStreaming = nil
+                builderResult.responseStreaming = false
                 return self
             }
             /// Any metadata attached to the method.
